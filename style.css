@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.banner-content{
+    width: 90%;
+}
+.banner-content{
+    width: 45%;
+    padding: 10px 50px 0 70px;
+}
+h1, h2, h4, button{
+    margin-right: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.banner-content h1{
+    margin-top: 120px;
+    font-weight: 650;
+    color: #575757;
+    font-size: 40px;
+}
+.skip{
+    color: #FBA24F;
+}
+.sub-title{
+    color: #252525;
+    font-weight: 300;
+    padding-right: 100px;
+}
+.description{
+    color: #252525;
+    font-weight: 444;
+}
+.banner-button{
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    background-image: -webkit-repeating-linear-gradient(#FBA24F, #FF1E1E);
+}
+.banner-pic{
+    width: 45%;
+}
+.banner-pic{
+    width: 45%;
+    margin-top: 110px;
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.banner-pic img{
+    width: 64%;
+    margin-left: 15px;
+    padding-top: 100px;
+}
+.body-part{
+    padding: 80px 0 0 0;
+    margin: 0;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abut-details{
+    margin-top: 100px;
+}
+.recipies-part{
+    padding-top: 100px;
+}
+.options{
+    text-align: center;
+    padding: 0 200px;
+    justify-items: center;
+}
+.recipie-part{
+    
+}
+.recepies-item img, h1, h4{
+    width: 64%;
+}
+.card-group{
+    display: flex;
+    padding: 50px;
+}
+.box-car {
+    box-shadow: 0px 2px 49px -12px #80808063;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-left{
+    margin-right: 15px;
+}
+.card-right{
+    margin-left: 15px;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+}
+.align-items-center{
+    display: flex;
+    padding: 0px 50px;
+    margin: 50px 50px;
+    text-align: center;
+    box-shadow: 0px 2px 49px -12px #80808063;
+}
+.items-center{
+   width: 33.67%;
+   font-weight: 300;
+}
+.eating-fresh{
+    background-color: #0B0D17;
+    height: 200px;
+    width: 100%;
+    
+}
+.footer-title, .foooter-description{
+    text-align: center;  
+    width: 100%;
+}
+.footer-title{
+    color: #5B5B5B;
+    margin-bottom: 0;
+}
+.foooter-description{
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-top: 0;
+}
